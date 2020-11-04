@@ -1,0 +1,29 @@
+.tentangBody {
+    margin: 0;
+    padding: 0%;
+    background: url(../img/white.jpg);
+    background-size: cover;
+}
+
+.tentangBox {
+    width: 500px;
+    background: rgba(255, 147, 5, 0.938);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.box-img {
+    width: 200px;
+    height: 100px;
+    
+}
+
+.tentangBox p {
+    text-align: justify;
+    text-align: center;
+
+}
