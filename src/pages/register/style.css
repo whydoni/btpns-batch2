@@ -1,0 +1,7 @@
+.regis-input {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
