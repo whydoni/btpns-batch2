@@ -1,0 +1,9 @@
+.nav-menu {
+    width: max-content;
+    padding: 5px 10px;
+    border: 1px solid#333300;
+    border-radius: 3px;
+    margin: 10px 8px;
+    color: #333300;
+    background-color: #efa623;
+}

@@ -1,0 +1,9 @@
+.header-title {
+    height: 150px;
+    width: auto;
+    background-image: url("logo.jpeg");
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
