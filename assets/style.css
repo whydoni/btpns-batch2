@@ -1,0 +1,20 @@
+.bgc {
+    background-color: #1f2638;
+}
+
+.first-col {
+    width: 25%;
+    text-align: right;
+}
+
+p {
+    font-size: 13px;
+}
+
+.sec-col {
+    padding-left: 30px;
+}
+
+.bg-grey {
+    background-color: #e2e2e2;
+}
