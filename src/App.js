@@ -20,9 +20,9 @@ class App extends Component {
   // }
 
   componentDidMount = async() =>{
-    await fetch('http://localhost:5000/users')
+    await fetch('https://jsonplaceholder.typicode.com/users')
         .then(response => response.json())
-        .then(json => this.props.doFetch(json.users))
+        .then(json => this.props.doFetch(json))
   }
 
   

@@ -29,7 +29,7 @@ class Login extends Component {
         // const dataUser = userList;
         // console.log(dataUser);
 
-        const exist = this.props.userList.find((user) => user.username === username && user.password === password)
+        const exist = this.props.userList.find((user) => user.username === username && password === 123)
         if (exist) {
             alert(`Welcome ${exist.name}!!`)
             this.props.doLogin(username)
