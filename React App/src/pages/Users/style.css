@@ -1,0 +1,27 @@
+.users-container {
+    background-color:#efa623;
+    height: 700px;
+    padding: 25px;
+}
+
+button {
+    display: flex;
+    margin-left: 15px;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: greenyellow;
+}
+
+.editInput {
+    margin: 100px 30%;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.editInput input {
+    height: 25px;
+}

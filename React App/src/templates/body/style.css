@@ -1,0 +1,125 @@
+.login-container {
+    height: 500px;
+    background-color:#efa623;
+}
+
+.home-container {
+    background-color:#efa623;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+.about-container {
+    background-color:#efa623;
+    height: 700px;
+}
+
+.about-tagline {
+    display: flex;
+    margin-left: 380px;
+    text-align: center;
+    color: #333300;
+    font-size: 25px;
+    padding-top: 8vw;
+    padding-bottom: 3vw;
+    background-color: #efa623;
+    width: 40%;
+}
+
+.about-visi {
+    float: left;
+    background-color: #ffffff;
+    color:  #333300;
+    text-align: center;
+    width: 27%;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 80px;
+    padding: 0 20px;
+    border: 1px solid #333300;
+    border-radius: 8px;
+}
+
+.about-visi h4 {
+    font-size: 25px;
+}
+
+.about-visi p {
+    font-size: 20px;
+}
+
+.about-misi {
+    float: right;
+    background-color: #ffffff;
+    color:  #333300;
+    text-align: center;
+    width: 30%;
+    margin-right: 200px;
+    margin-top: 80px;
+    padding-right: 30px;
+    height: 300px;
+    border: 1px solid #333300;
+    border-radius: 8px;
+}
+
+.about-misi h4 {
+    padding-left: 50px;
+    font-size: 25px;
+}
+
+
+.moto {
+    text-align: center;
+    color: #323300;
+}
+
+.moto p {
+    font-size: 20px;
+}
+
+.moto h2 {
+    margin-top: 10vw;
+}
+
+.image-container h2 {
+    display: flex;
+    justify-content: center;
+    color: #323300;
+}
+
+.image-container img {
+    margin: 0vw 10vw 0vw 19vw;
+    position: relative; 
+    width: 700px; 
+    padding: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+
+.body-title {
+    font-size: 25px;
+    float: left;
+    padding-top: 20px;
+    margin-left: 50px;
+    margin-top: 100px;
+    width: 30%;
+    height: 200px;
+}
+
+.body-content {
+    float: right;
+    font-size: 15px;
+    background-color: #ffffff;
+    width: 30%;
+    height: 300px;
+    margin-top: 100px;
+    padding-top: 20px;
+    margin-right: 90px;
+    border: 1px solid #f0f4f7;
+    border-radius: 8px;
+    padding-left: 50px;
+}
+
+.body-content input {
+    margin-top: 10px;
+}
