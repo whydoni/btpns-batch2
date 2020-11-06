@@ -71,24 +71,24 @@ const response = (res, code, message, data) => {
 router.put("/edit/:email", jwtAuth, (dataLogin, req, res, next) => {
     const email = req.params.email
     const editedData = req.body
-    if (dataLogin.role === "admin") {
-        for (let i = 0; i < users.length; i++) {
-            if (users[i].email === email) {
-                users[i] = editedData;
-                return response(res, 200, "Data has been updated", [users])
-            }
-        }
-    } else if (dataLogin.role === "user") {
-        if (dataLogin.email===email) {
-            for (let i = 0; i < users.length; i++) {
-                if (users[i].email===email) {
-                    users[i] = editedData;
-                    return response(res, 200, "Success", [users])
-                }
-            }
-        }
-    }
-    return response(res, 401, "Unauthorized!!", [])
+
+    userModel.updateData(editedData.name, editedData.username, editedData.password, 2, editedData.email, (error, data) =>{
+        if (error) return res.status(401).send({error})
+
+        return response(res, 200, "Register success!!", [])
+    })
+    
+    // } else if (dataLogin.role === "user") {
+    //     if (dataLogin.email===email) {
+    //         for (let i = 0; i < users.length; i++) {
+    //             if (users[i].email===email) {
+    //                 users[i] = editedData;
+    //                 return response(res, 200, "Success", [users])
+    //             }
+    //         }
+    //     }
+    // }
+    // return response(res, 401, "Unauthorized!!", [])
 })
 
 
